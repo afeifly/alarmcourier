@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div className="App">
-	 	<h4>默默学习</h4> 
+	 	<h4>S4M alarm DEMO</h4> 
 	  <div className="container">
 	  <div className="row ">
     	<div className="col-md-8">
