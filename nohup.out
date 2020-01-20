@@ -1,0 +1,200 @@
+
+> mmstudy@0.1.0 start /root/project/mmstudy
+> react-scripts start
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://172.17.0.16/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from /
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /root/project/mmstudy/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /index.html
+Starting the development server...
+
+Compiled successfully!
+
+You can now view mmstudy in the browser.
+
+  Local:            http://localhost:3000/
+  On Your Network:  http://172.17.0.16:3000/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+
+> mmstudy@0.1.0 start /root/project/mmstudy
+> react-scripts start
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://172.17.0.16/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from /
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /root/project/mmstudy/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /index.html
+Starting the development server...
+
+Compiled successfully!
+
+You can now view mmstudy in the browser.
+
+  Local:            http://localhost:3000/
+  On Your Network:  http://172.17.0.16:3000/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+./src/App.js
+  Line 12:5:  'Workspace' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/App.js
+Module not found: Can't resolve './Workspace' in '/root/project/mmstudy/src'
+Compiling...
+Failed to compile.
+
+./src/App.js
+Module not found: Can't resolve './Workspace' in '/root/project/mmstudy/src'
+Compiling...
+Failed to compile.
+
+./src/workspace.js
+Syntax error: Unexpected token, expected "{" (1:15)
+
+> 1 | import React, from 'react';
+    |               ^
+  2 | 
+  3 | export default function Workspace(props){
+  4 | 	return (
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 5:21:  Style prop value must be an object  react/style-prop-object
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+./src/control.js
+Syntax error: Expected corresponding JSX closing tag for <input> (16:8)
+
+  14 | 				    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="请输入你的邮箱地址">
+  15 | 					<span>m³</span>
+> 16 | 			    </div>
+     | 			    ^
+  17 | 		  </div>
+  18 | 		</div>
+  19 | 	)
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+./src/control.js
+Syntax error: Expected corresponding JSX closing tag for <input> (20:11)
+
+  18 |         			</div>
+  19 |         			<input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+> 20 |       				</div>
+     |       				^
+  21 |     			</div>
+  22 | 				<div class="form-group">
+  23 |     				<label class="" for="exampleInputEmail2">Alarm: </label>
+Compiling...
+Failed to compile.
+
+./src/control.js
+Syntax error: Expected corresponding JSX closing tag for <input> (19:10)
+
+  17 |         			</div>
+  18 |         			<input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+> 19 |       			</div>
+     |       			^
+  20 | 				<div class="form-group">
+  21 |     				<label class="" for="exampleInputEmail2">Alarm: </label>
+  22 | 				    <input type="text" class="form-control" placeholder="100~200" />
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+./src/control.js
+Syntax error: Unterminated JSX contents (28:9)
+
+  26 | 				</div>
+  27 | 		  </div>
+> 28 | 		</div>
+     | 		      ^
+  29 | 	)
+  30 | }
+  31 |
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+./src/control.js
+Syntax error: Unterminated JSX contents (28:9)
+
+  26 | 				</div>
+  27 | 		  </div>
+> 28 | 		</div>
+     | 		      ^
+  29 | 	)
+  30 | }
+  31 |
+Compiling...
+Compiled successfully!
