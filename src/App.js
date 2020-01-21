@@ -8,7 +8,10 @@ function App() {
 	const [run, setRun] = React.useState(false);
 	const [value, setValue] = React.useState(100);
 	const [logger, setLogger] = React.useState([]);
-	const [alarm, setAlarm] = React.useState(200);
+	const [alarm, setAlarm] = React.useState(-100);
+	const [isAlarmSet,setIsAlarmSet] = React.useState(false);
+	const [startTime, setStartTime] = React.useState()
+	const [alarmTriged, setAlarmTriged] = React.useState(false)
 	const updateValueInterval = useRef(false);	
 	const loggerInterval = useRef(false);	
 	var valueInpage = 100
@@ -21,6 +24,7 @@ function App() {
 	function startExec() {
 		setRun(true)
 		var time = Date.now()
+		setStartTime(time)
 		var timestr = new Date(time).toLocaleTimeString("en-US");
 		valueInpage = value
 		updateValueInterval.current = setInterval(() => timePass(), 500);
@@ -38,12 +42,17 @@ function App() {
 		clearInterval(loggerInterval.current)
 
 	}
+	function setAlarmEnable(status){
+		setIsAlarmSet(status)
+		setAlarmTriged(false)
+	}
 	function reset() {
 		setRun(false)
 		clearInterval(updateValueInterval.current)
 		clearInterval(loggerInterval.current)
 		setValue(100)
 		setAlarm(200)
+		setLogger([])
 		valueInpage = 100
 	}
 	function timePass(){
@@ -51,6 +60,10 @@ function App() {
 		valueInpage = newValue
 		//setValue(value+Math.ceil(Math.random()*10))
 		setValue(newValue)
+	}
+	function changeAlarm(alarmValue){
+		setAlarm(alarmValue)
+		setAlarmTriged(false)
 	}
 	function startLoggerInterval(){
 		//Get a record every second from valueInpage
@@ -72,7 +85,17 @@ function App() {
 			newLogger.push(obj)
 			setLogger(newLogger)
 	}
-
+	function alarmTriger(){
+		if(alarm<0){
+			return
+		}
+		if(alarmTriged){
+			return
+		}
+		//TODO send notify
+		console.log('alarm trrrrrrrrrrrrrrrrrr')
+		setAlarmTriged(true)
+	}
   return (
     <div className="App">
 	 	<h4>S4M alarm DEMO</h4> 
@@ -83,15 +106,19 @@ function App() {
 			  value={value}			
 			  logger={logger}
 				alarm={alarm}
+				startTime={startTime}
+				isAlarmSet={isAlarmSet}
+				alarmTriger={alarmTriger}
 	  		/>	  			
 	  	</div>
 	    <div className="col-md-4 ">
 			<Control 
 				run={run}
+				changeAlarm={changeAlarm}
 				startExec={startExec}
 				stopExec={stopExec}
 				reset={reset}
-				
+				setAlarmEnable={setAlarmEnable}
 			/>	  		
 	  	</div>
 	  </div>

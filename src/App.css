@@ -48,5 +48,15 @@
 .max-w-250 {
 	max-width: 250px;
 }
+.alarm-on {
+  animation: pulse 0.7s infinite;
+}
 
-
+@keyframes pulse {
+  0% {
+		opacity: 0
+  }
+  100% {
+		opacity: 1
+  }
+}

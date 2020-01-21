@@ -7,6 +7,7 @@ export default function Control(props){
 	function handleAlarmEnable(event){
 		
 		setAlarmEnable(event.target.checked)
+		props.setAlarmEnable(event.target.checked)
 	}
 	function handleStart(){
 		props.startExec();
@@ -16,6 +17,10 @@ export default function Control(props){
 	}
 	function handleReset(){
 		props.reset();
+	}
+	function handleAlarmChange(event){
+		//TODO too often to change value
+		props.changeAlarm(event.target.value)
 	}
 	return (
 		<div className="card " >
@@ -40,7 +45,9 @@ export default function Control(props){
 				</div>
 				<div className={alarmEnable?"col-auto ":"col-auto d-none"}>
       				<div className="input-group mb-2">
-       				<input type="text" className="form-control" id="inlineFormInputGroup" placeholder="Threshold"/>
+       				<input type="number" 
+								onChange={handleAlarmChange}
+								className="form-control" id="inlineFormInputGroup" placeholder="Threshold"/>
 					<div className="input-group-prepend">
           			<div className="input-group-text">
 					m³

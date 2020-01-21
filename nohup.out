@@ -824,3 +824,1396 @@ Compiled with warnings.
 Search for the keywords to learn more about each warning.
 To ignore, add // eslint-disable-next-line to the line before.
 
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 18:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 24:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 59:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 59:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 18:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 24:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 59:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 59:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 18:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 24:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 60:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 60:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 18:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 24:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 60:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 60:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 11:11:  'formatXAxis' is defined but never used       no-unused-vars
+  Line 60:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 60:20:  'payload' is assigned a value but never used  no-unused-vars
+
+./src/App.js
+  Line 18:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 24:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 18:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 24:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 60:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 60:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 18:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 24:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 60:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 60:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 18:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 24:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 61:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 61:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 18:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 24:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 61:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 61:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 18:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 24:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 62:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 62:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 18:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 24:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 62:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 62:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 18:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 24:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 63:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 63:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 18:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 24:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 64:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 64:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 18:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 24:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 64:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 64:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 18:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 24:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 64:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 64:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 18:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 24:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 64:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 64:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/workspace.js
+  Line 42:15:  'dataMin' is not defined  no-undef
+  Line 42:23:  'dataMin' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 18:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 24:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 64:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 64:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 18:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 24:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 64:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 64:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/App.js
+  Line 14:2:   'cosnt' is not defined         no-undef
+  Line 14:9:   'startTime' is not defined     no-undef
+  Line 14:20:  'setStartTime' is not defined  no-undef
+  Line 25:3:   'setStartTime' is not defined  no-undef
+  Line 88:16:  'startTime' is not defined     no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 64:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 64:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 65:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 65:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 65:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 65:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 65:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 65:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 65:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 65:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/workspace.js
+Syntax error: Unexpected token, expected "..." (48:23)
+
+  46 | 					//domain={[dataMin=>formatXAxis(1539589905000),dataMax=>formatXAxis(1699589905000)]}
+  47 | 				/>
+> 48 |         <YAxis domain{[0,500]}/>
+     |                       ^
+  49 |         <Tooltip />
+  50 |         <Legend />
+  51 |         {/* <ReferenceLine x="Page C" stroke="red" label="Max PV PAGE" /> */}
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 65:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 65:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 65:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 65:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 63:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 63:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 63:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 63:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 63:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 63:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 63:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 63:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 63:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 63:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 63:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 63:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 65:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 65:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 65:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 65:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/workspace.js
+  Line 56:17:  'hasAlarm' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 72:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 72:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 72:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 72:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 73:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 73:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 73:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 73:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 74:12:  'stroke' is assigned a value but never used   no-unused-vars
+  Line 74:20:  'payload' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 9:24:   'setShowAlarmIcon' is assigned a value but never used                                                                                                                                                                                       no-unused-vars
+  Line 13:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, hasAlarm, showAlarmIcon] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 23:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                                               no-unused-vars
+  Line 79:12:  'stroke' is assigned a value but never used                                                                                                                                                                                                 no-unused-vars
+  Line 79:20:  'payload' is assigned a value but never used                                                                                                                                                                                                no-unused-vars
+  Line 79:29:  'value' is assigned a value but never used                                                                                                                                                                                                  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 9:24:   'setShowAlarmIcon' is assigned a value but never used                                                                                                                                                                                       no-unused-vars
+  Line 13:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, hasAlarm, showAlarmIcon] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 23:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                                               no-unused-vars
+  Line 79:12:  'stroke' is assigned a value but never used                                                                                                                                                                                                 no-unused-vars
+  Line 79:20:  'payload' is assigned a value but never used                                                                                                                                                                                                no-unused-vars
+  Line 79:29:  'value' is assigned a value but never used                                                                                                                                                                                                  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 13:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, hasAlarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 23:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                                no-unused-vars
+  Line 79:12:  'stroke' is assigned a value but never used                                                                                                                                                                                  no-unused-vars
+  Line 79:20:  'payload' is assigned a value but never used                                                                                                                                                                                 no-unused-vars
+  Line 79:29:  'value' is assigned a value but never used                                                                                                                                                                                   no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 13:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, hasAlarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 26:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                                no-unused-vars
+  Line 82:12:  'stroke' is assigned a value but never used                                                                                                                                                                                  no-unused-vars
+  Line 82:20:  'payload' is assigned a value but never used                                                                                                                                                                                 no-unused-vars
+  Line 82:29:  'value' is assigned a value but never used                                                                                                                                                                                   no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 13:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, hasAlarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 28:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                                no-unused-vars
+  Line 84:12:  'stroke' is assigned a value but never used                                                                                                                                                                                  no-unused-vars
+  Line 84:20:  'payload' is assigned a value but never used                                                                                                                                                                                 no-unused-vars
+  Line 84:29:  'value' is assigned a value but never used                                                                                                                                                                                   no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 13:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, hasAlarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 28:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                                no-unused-vars
+  Line 84:12:  'stroke' is assigned a value but never used                                                                                                                                                                                  no-unused-vars
+  Line 84:20:  'payload' is assigned a value but never used                                                                                                                                                                                 no-unused-vars
+  Line 84:29:  'value' is assigned a value but never used                                                                                                                                                                                   no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 13:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, hasAlarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 28:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                                no-unused-vars
+  Line 84:12:  'stroke' is assigned a value but never used                                                                                                                                                                                  no-unused-vars
+  Line 84:20:  'payload' is assigned a value but never used                                                                                                                                                                                 no-unused-vars
+  Line 84:29:  'value' is assigned a value but never used                                                                                                                                                                                   no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 13:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, hasAlarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 28:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                                no-unused-vars
+  Line 84:12:  'stroke' is assigned a value but never used                                                                                                                                                                                  no-unused-vars
+  Line 84:20:  'payload' is assigned a value but never used                                                                                                                                                                                 no-unused-vars
+  Line 84:29:  'value' is assigned a value but never used                                                                                                                                                                                   no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 13:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, hasAlarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 28:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                                no-unused-vars
+  Line 84:12:  'stroke' is assigned a value but never used                                                                                                                                                                                  no-unused-vars
+  Line 84:20:  'payload' is assigned a value but never used                                                                                                                                                                                 no-unused-vars
+  Line 84:29:  'value' is assigned a value but never used                                                                                                                                                                                   no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 13:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, hasAlarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 28:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                                no-unused-vars
+  Line 89:12:  'stroke' is assigned a value but never used                                                                                                                                                                                  no-unused-vars
+  Line 89:20:  'payload' is assigned a value but never used                                                                                                                                                                                 no-unused-vars
+  Line 89:29:  'value' is assigned a value but never used                                                                                                                                                                                   no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 13:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, hasAlarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 28:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                                no-unused-vars
+  Line 89:12:  'stroke' is assigned a value but never used                                                                                                                                                                                  no-unused-vars
+  Line 89:20:  'payload' is assigned a value but never used                                                                                                                                                                                 no-unused-vars
+  Line 89:29:  'value' is assigned a value but never used                                                                                                                                                                                   no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 13:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, hasAlarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 28:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                                no-unused-vars
+  Line 89:12:  'stroke' is assigned a value but never used                                                                                                                                                                                  no-unused-vars
+  Line 89:20:  'payload' is assigned a value but never used                                                                                                                                                                                 no-unused-vars
+  Line 89:29:  'value' is assigned a value but never used                                                                                                                                                                                   no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 13:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, hasAlarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 28:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                                no-unused-vars
+  Line 89:12:  'stroke' is assigned a value but never used                                                                                                                                                                                  no-unused-vars
+  Line 89:20:  'payload' is assigned a value but never used                                                                                                                                                                                 no-unused-vars
+  Line 89:29:  'value' is assigned a value but never used                                                                                                                                                                                   no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 13:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, hasAlarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 28:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                                no-unused-vars
+  Line 90:12:  'stroke' is assigned a value but never used                                                                                                                                                                                  no-unused-vars
+  Line 90:20:  'payload' is assigned a value but never used                                                                                                                                                                                 no-unused-vars
+  Line 90:29:  'value' is assigned a value but never used                                                                                                                                                                                   no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 13:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, hasAlarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 28:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                                no-unused-vars
+  Line 90:12:  'stroke' is assigned a value but never used                                                                                                                                                                                  no-unused-vars
+  Line 90:20:  'payload' is assigned a value but never used                                                                                                                                                                                 no-unused-vars
+  Line 90:29:  'value' is assigned a value but never used                                                                                                                                                                                   no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 13:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, hasAlarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 28:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                                no-unused-vars
+  Line 91:12:  'stroke' is assigned a value but never used                                                                                                                                                                                  no-unused-vars
+  Line 91:20:  'payload' is assigned a value but never used                                                                                                                                                                                 no-unused-vars
+  Line 91:29:  'value' is assigned a value but never used                                                                                                                                                                                   no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 13:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, hasAlarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 28:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                                no-unused-vars
+  Line 91:12:  'stroke' is assigned a value but never used                                                                                                                                                                                  no-unused-vars
+  Line 91:20:  'payload' is assigned a value but never used                                                                                                                                                                                 no-unused-vars
+  Line 91:29:  'value' is assigned a value but never used                                                                                                                                                                                   no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 13:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, hasAlarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 28:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                                no-unused-vars
+  Line 91:12:  'stroke' is assigned a value but never used                                                                                                                                                                                  no-unused-vars
+  Line 91:20:  'payload' is assigned a value but never used                                                                                                                                                                                 no-unused-vars
+  Line 91:29:  'value' is assigned a value but never used                                                                                                                                                                                   no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 13:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, hasAlarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 28:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                                no-unused-vars
+  Line 91:12:  'stroke' is assigned a value but never used                                                                                                                                                                                  no-unused-vars
+  Line 91:20:  'payload' is assigned a value but never used                                                                                                                                                                                 no-unused-vars
+  Line 91:29:  'value' is assigned a value but never used                                                                                                                                                                                   no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 13:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, hasAlarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 28:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                                no-unused-vars
+  Line 91:12:  'stroke' is assigned a value but never used                                                                                                                                                                                  no-unused-vars
+  Line 91:20:  'payload' is assigned a value but never used                                                                                                                                                                                 no-unused-vars
+  Line 91:29:  'value' is assigned a value but never used                                                                                                                                                                                   no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/workspace.js
+  Line 71:21:  'showAlarmIcon' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 23:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                      no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 23:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                      no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 23:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                      no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 23:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                      no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 23:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                      no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 23:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                      no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 23:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                      no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 23:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                      no-unused-vars
+  Line 60:20:  Comments inside children section of tag should be placed inside braces                                                                                                                                             react/jsx-no-comment-textnodes
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 3:57:   'Legend' is defined but never used                                                                                                                                                                                 no-unused-vars
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 23:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                      no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 23:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                      no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/workspace.js
+  Line 62:5:  'data' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/workspace.js
+Syntax error: Unexpected token (63:7)
+
+  61 |      		<Legend payload={
+  62 |    				{ value: 'Consumption', type: 'square', color: '#112E51' }, 
+> 63 |  				 }/>
+     |  				 ^
+  64 | 
+  65 | 				
+  66 |         {/* <ReferenceLine x="Page C" stroke="red" label="Max PV PAGE" /> */}
+Compiling...
+Failed to compile.
+
+./src/workspace.js
+Syntax error: Unexpected token (63:7)
+
+  61 |      		<Legend payload={
+  62 |    				{ value: 'Consumption', type: 'square', color: '#112E51' }, 
+> 63 |  				 }/>
+     |  				 ^
+  64 | 
+  65 | 				
+  66 |         {/* <ReferenceLine x="Page C" stroke="red" label="Max PV PAGE" /> */}
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 23:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                      no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 23:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                      no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 23:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                      no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 23:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                      no-unused-vars
+
+./src/App.js
+  Line 19:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 26:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 12:20:  'setIsAlarmSet' is assigned a value but never used                                                                                                                                                                                                                                          no-unused-vars
+  Line 20:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 27:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 23:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                      no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 12:20:  'setIsAlarmSet' is assigned a value but never used                                                                                                                                                                                                                                          no-unused-vars
+  Line 20:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 27:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 23:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                      no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/App.js
+  Line 12:20:  'setIsAlarmSet' is assigned a value but never used                                                                                                                                                                                                                                          no-unused-vars
+  Line 20:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 27:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 23:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                      no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/App.js
+  Line 104:21:  'setAlarmEnable' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/App.js
+  Line 104:21:  'setAlarmEnable' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 23:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                      no-unused-vars
+
+./src/App.js
+  Line 20:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 27:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 23:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                      no-unused-vars
+
+./src/App.js
+  Line 20:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 27:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 23:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                      no-unused-vars
+
+./src/App.js
+  Line 20:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 27:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 23:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                      no-unused-vars
+
+./src/App.js
+  Line 20:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 27:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, props] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 24:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                             no-unused-vars
+
+./src/App.js
+  Line 20:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 27:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, props] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 24:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                             no-unused-vars
+
+./src/App.js
+  Line 20:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 27:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, props] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 24:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                             no-unused-vars
+
+./src/App.js
+  Line 20:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 27:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, props] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 24:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                             no-unused-vars
+
+./src/App.js
+  Line 20:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 27:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, props] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 24:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                             no-unused-vars
+
+./src/App.js
+  Line 20:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 27:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, props] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 24:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                             no-unused-vars
+
+./src/App.js
+  Line 21:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 28:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, props] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 24:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                             no-unused-vars
+
+./src/App.js
+  Line 21:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 28:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, props] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 24:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                             no-unused-vars
+
+./src/App.js
+  Line 21:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 28:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/workspace.js
+  Line 12:2:   React Hook useEffect contains a call to 'setHasAlarm'. Without a list of dependencies, this can lead to an infinite chain of updates. To fix this, pass [value, alarm, props] as a second argument to the useEffect Hook  react-hooks/exhaustive-deps
+  Line 24:11:  'changeAlarmStatus' is defined but never used                                                                                                                                                                             no-unused-vars
+
+./src/App.js
+  Line 21:15:  Assignments to the 'timestamp' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect  react-hooks/exhaustive-deps
+  Line 28:7:   'timestr' is assigned a value but never used                                                                                                                                                                                                                                                no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
