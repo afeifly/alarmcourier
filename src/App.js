@@ -8,53 +8,46 @@ function App() {
 	const [run, setRun] = React.useState(false);
 	const [value, setValue] = React.useState(100);
 	const [logger, setLogger] = React.useState([]);
+	const [alarm, setAlarm] = React.useState(200);
 	const updateValueInterval = useRef(false);	
 	const loggerInterval = useRef(false);	
 	var valueInpage = 100
 	var timestamp = -1
-	useEffect(() => {
-		// Update the document title using the browser API
-		console.log("---------------- app")
-		timestamp = Date.now()
-		console.log(timestamp)
-		//timestamp = 1000 * (timestamp/1000)
-		timestamp = parseInt(timestamp / 1000) *1000
-		console.log("start timestamp  = "+timestamp)	
-		oneLogger();
 
+	useEffect(() => {
+		timestamp = Date.now()
+		timestamp = parseInt(timestamp / 1000) *1000
 	  });
 	function startExec() {
 		setRun(true)
 		var time = Date.now()
-		console.log(time)
 		var timestr = new Date(time).toLocaleTimeString("en-US");
-		console.log(timestr)
 		valueInpage = value
 		updateValueInterval.current = setInterval(() => timePass(), 500);
-		//startLoggerInterval()
+		startLoggerInterval()
 		
 		timestamp = Date.now()
-		console.log(timestamp)
 		//timestamp = 1000 * (timestamp/1000)
 		timestamp = parseInt(timestamp / 1000) *1000
-		console.log("start timestamp  = "+timestamp)	
-		oneLogger();
+		//oneLogger();
 	}
 	function stopExec() {
 		setRun(false)
 		valueInpage = value
 		clearInterval(updateValueInterval.current)
-		console.log(value);
+		clearInterval(loggerInterval.current)
+
 	}
 	function reset() {
 		setRun(false)
 		clearInterval(updateValueInterval.current)
+		clearInterval(loggerInterval.current)
 		setValue(100)
+		setAlarm(200)
 		valueInpage = 100
 	}
 	function timePass(){
 		let newValue = valueInpage + Math.ceil(Math.random()*10)
-		console.log(value);
 		valueInpage = newValue
 		//setValue(value+Math.ceil(Math.random()*10))
 		setValue(newValue)
@@ -63,10 +56,8 @@ function App() {
 		//Get a record every second from valueInpage
 		//get time of first 
 		timestamp = Date.now()
-		console.log(timestamp)
 		//timestamp = 1000 * (timestamp/1000)
 		timestamp = parseInt(timestamp / 1000) *1000
-		console.log("start timestamp  = "+timestamp)
 		loggerInterval.current = setInterval(() => oneLogger(), 1000);
 	}
 	function oneLogger(){
@@ -76,17 +67,10 @@ function App() {
 				value: valueInpage,
 			}
 
-			console.log(obj)		
-			// setLogger(...logger,{
-			// 	time: timestamp+1000,
-			// 	value: valueInpage,
-			// })
-			var loggers = [];
-			loggers = logger;
-			loggers.push(obj)
-			setLogger(loggers)
-			//setLogger(...logger , obj)
-			console.log(logger)
+			logger.push(obj)
+			const newLogger = [...logger]
+			newLogger.push(obj)
+			setLogger(newLogger)
 	}
 
   return (
@@ -98,6 +82,7 @@ function App() {
 			<Workspace 
 			  value={value}			
 			  logger={logger}
+				alarm={alarm}
 	  		/>	  			
 	  	</div>
 	    <div className="col-md-4 ">
@@ -106,6 +91,7 @@ function App() {
 				startExec={startExec}
 				stopExec={stopExec}
 				reset={reset}
+				
 			/>	  		
 	  	</div>
 	  </div>

@@ -5,36 +5,12 @@ import {
 
 export default function Workspace(props) {
 	useEffect(() => {
-		// Update the document title using the browser API
-		console.log("---------------- workspace")
-		console.log(data)
 		console.log(props.logger)
-	  });
-	const data = [
-		{
-		  time: 1579493816000,name:'Page A', uv: 4000, pv: 2400, amt: 2400,
-		},
-		{
-		  time: 1579493817000,name: 'Page B', uv: 3000, pv: 1398, amt: 2210,
-		},
-		{
-		  time: 1579493818000,name: 'Page C', uv: 2000, pv: 9800, amt: 2290,
-		},
-		{
-		  time: 1579493819000,name: 'Page D', uv: 2780, pv: 3908, amt: 2000,
-		},
-		{
-		  time: 1579493820000,name: 'Page E', uv: 1890, pv: 4800, amt: 2181,
-		},
-		{
-		  time: 1579493821000,name: 'Page F', uv: 2390, pv: 3800, amt: 2500,
-		}
-	  ];
+	});
 
-	  function formatXAxis(tickItem) {
-		// If using moment.js
-		return new Date(tickItem).toLocaleTimeString("en-US");
-		}
+	function formatXAxis(tickItem) {
+			return new Date(tickItem).toLocaleTimeString("en-US");
+	}
 	return (
 		<div>
 		<div className="card card-width"	>
@@ -50,8 +26,9 @@ export default function Workspace(props) {
 				<LineChart
         width={500}
         height={300}
-		//data={data}
+				//data={data}
 		data={props.logger}
+				isAnimationActive={true}
         margin={{
           top: 20, right: 50, left: 20, bottom: 5,
         }}
@@ -63,9 +40,11 @@ export default function Workspace(props) {
         <Tooltip />
         <Legend />
         {/* <ReferenceLine x="Page C" stroke="red" label="Max PV PAGE" /> */}
-        <ReferenceLine y={8800} label="Max" stroke="red" />
+        <ReferenceLine 
+						y={props.alarm} 
+						label="Max" 
+						stroke="red" />
         <Line type="monotone" dataKey="value" stroke="#8884d8" dot={<CustomizedDot />} />
-        {/* <Line type="monotone" dataKey="uv" stroke="#82ca9d" /> */}
       </LineChart>
 			</div>
 		</div>
