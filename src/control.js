@@ -3,11 +3,14 @@ import courier from './static/courier.jpg'
 
 export default function Control(props){
 	const [alarmEnable, setAlarmEnable] = React.useState(false);
+	const [alarmModify, setAlarmModify] = React.useState(false);
+	const [alarmValue, setAlarmValue] = React.useState(300);
 	
 	function handleAlarmEnable(event){
 		
 		setAlarmEnable(event.target.checked)
 		props.setAlarmEnable(event.target.checked)
+		props.changeAlarm(alarmValue)
 	}
 	function handleStart(){
 		props.startExec();
@@ -17,10 +20,18 @@ export default function Control(props){
 	}
 	function handleReset(){
 		props.reset();
+		setAlarmValue(300)
+		props.changeAlarm(300)
 	}
 	function handleAlarmChange(event){
 		//TODO too often to change value
-		props.changeAlarm(event.target.value)
+		setAlarmModify(true)
+		setAlarmValue(event.target.value)
+	}
+	function handleAlarmModify(){
+
+		setAlarmModify(false)
+		props.changeAlarm(alarmValue)
 	}
 	return (
 		<div className="card " >
@@ -40,18 +51,24 @@ export default function Control(props){
 				<div className="form-check">
 					<input className="form-check-input" onChange={handleAlarmEnable} type="checkbox" value="" id="defaultCheck1" />
   					<label className="form-check-label" >
-    					Alarm 
+    					Alarm <b className="text-info">It is highly recommended to enable alarm</b> 
   					</label>
 				</div>
 				<div className={alarmEnable?"col-auto ":"col-auto d-none"}>
       				<div className="input-group mb-2">
        				<input type="number" 
 								onChange={handleAlarmChange}
+								value={alarmValue}
 								className="form-control" id="inlineFormInputGroup" placeholder="Threshold"/>
 					<div className="input-group-prepend">
           			<div className="input-group-text">
 					m³
         			</div>
+							<span>&nbsp;</span>
+							<button className={alarmModify?"btn btn-primary":"btn btn-primary d-none"} 
+									onClick={handleAlarmModify}
+									type="button">Modify</button> 
+
         			</div>
 
       			</div>
