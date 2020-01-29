@@ -45,7 +45,7 @@ export default function Workspace(props) {
           top: 20, right: 50, left: 20, bottom: 5,
         }}
       >
-        <CartesianGrid strokeDasharray="3 3" />
+        <CartesianGrid strokeDasharray="5 5" />
         <XAxis 
 					dataKey="time" 
 					type="number"
@@ -60,7 +60,7 @@ export default function Workspace(props) {
         <Tooltip />
      		<Legend payload={
 					[
-   				{ id:'value',value: 'Consumption', type: 'square', color: '#112E51' } ]
+   				{ id:'value',value: 'Consumption', type: 'square', color: '#8884d8' } ]
  				 }/>
 		{props.isAlarmSet?
         <ReferenceLine 
