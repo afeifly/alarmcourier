@@ -58,8 +58,14 @@ function App() {
 	function timePass(){
 		let newValue = valueInpage + Math.ceil(Math.random()*10)
 		valueInpage = newValue
-		//setValue(value+Math.ceil(Math.random()*10))
 		setValue(newValue)
+		
+		fetch('/setValue?value='+newValue)
+        .then(res => res.json())
+        .then((data) => {
+					console.log(data)
+        })
+        .catch(console.log)
 	}
 	function changeAlarm(alarmValue){
 		setAlarm(alarmValue)
@@ -92,14 +98,23 @@ function App() {
 		if(alarmTriged){
 			return
 		}
-		//TODO send notify
-		console.log('alarm trrrrrrrrrrrrrrrrrr')
+		handleTest()
 		setAlarmTriged(true)
+	}
+	function handleTest(){
+
+		fetch('/alarmTriger?value='+valueInpage)
+        .then(res => res.json())
+        .then((data) => {
+					console.log(data)
+        })
+        .catch(console.log)
+
 	}
   return (
     <div className="App">
 	 	<h4>S4M alarm DEMO</h4> 
-	  <div className="container">
+		<div className="container">
 	  <div className="row ">
     	<div className="col-md-8">
 			<Workspace 

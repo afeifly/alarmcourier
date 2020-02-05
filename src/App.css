@@ -48,6 +48,12 @@
 .max-w-250 {
 	max-width: 250px;
 }
+.max-w-150 {
+	max-width: 150px;
+}
+.max-w-25 {
+	max-width: 25px;
+}
 .alarm-on {
   animation: pulse 0.7s infinite;
 }

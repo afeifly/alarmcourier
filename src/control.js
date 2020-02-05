@@ -1,16 +1,56 @@
-import React from 'react';
+import React,{useRef,useEffect} from 'react';
 import courier from './static/courier.jpg'
 
 export default function Control(props){
 	const [alarmEnable, setAlarmEnable] = React.useState(false);
 	const [alarmModify, setAlarmModify] = React.useState(false);
 	const [alarmValue, setAlarmValue] = React.useState(300);
+	const [receivers, setReceivers] = React.useState([]);
 	
+	const updateInterval = useRef(false);	
+
 	function handleAlarmEnable(event){
 		
-		setAlarmEnable(event.target.checked)
-		props.setAlarmEnable(event.target.checked)
+		var alarmIn = event.target.checked
+		setAlarmEnable(alarmIn)
+		props.setAlarmEnable(alarmIn)
 		props.changeAlarm(alarmValue)
+		if(alarmIn){
+			
+			updateInterval.current = setInterval(() => timePass(), 2500);
+		}else{
+			clearInterval(updateInterval.current)
+		}
+		
+	}
+	function timePass(){
+		console.log("ppppp")
+		//TODO search receivers
+		fetch('/subscriptions')
+        .then(res => res.json())
+        .then((data) => {
+					console.log(data)
+					if(data.length>0){
+						let recs = []
+						data.map( item => {
+							let bean = {
+								openID: item.openID,
+								nickName: item.name,
+								url: item.url,
+							}
+							recs.push(bean)
+						} )
+						setReceivers(recs)
+					}else{
+						setReceivers([])
+					}
+        })
+        .catch(console.log)
+
+		//setReceivers([
+		//{openID: '33sdf',nickName: 'sdddds'},
+		//{openID: 'dfkdjf',nickName: 'fsfdsdx'},
+	//	])
 	}
 	function handleStart(){
 		props.startExec();
@@ -22,6 +62,7 @@ export default function Control(props){
 		props.reset();
 		setAlarmValue(300)
 		props.changeAlarm(300)
+		clearInterval(updateInterval.current)
 	}
 	function handleAlarmChange(event){
 		//TODO too often to change value
@@ -68,9 +109,7 @@ export default function Control(props){
 							<button className={alarmModify?"btn btn-primary":"btn btn-primary d-none"} 
 									onClick={handleAlarmModify}
 									type="button">Modify</button> 
-
         			</div>
-
       			</div>
 				<div className="col-auto">
       				<label className="" >WeChat courier</label>
@@ -78,8 +117,21 @@ export default function Control(props){
       			</div>
 				
 				<div className="col-auto">
-					<img  className="img-circle max-w-250" alt="140x140" src={courier} />
+					<img  className="img-circle max-w-150" alt="140x140" src={courier} />
 				</div>
+		{
+			receivers.length>0?<h5>Subscriber</h5>:""
+		}
+										<ul class="list-group">
+		{
+			receivers.map(item => (
+						<li class="list-group-item" key={item.openID}>
+							<img className="img-rounded max-w-25"  src={ item.url }></img> {item.nickName}
+						</li>
+				)
+			)
+		}
+					</ul>
 				</div>
 		  </div>
 		</div>
