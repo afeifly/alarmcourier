@@ -2,9 +2,11 @@ const express = require('express')
 const path = require('path')
 const app = express()
 const https = require('https');
+const bodyParser = require('body-parser');
+
 
 let receivers = [];
-let currentValue = 0;
+let currentValue = 100;
 app.use(express.static(path.join(__dirname, 'build')))
 
 app.get('/ping', (req, res) => {
@@ -22,12 +24,14 @@ app.get('/setValue', (req, res) => {
 	currentValue = parseInt(req.query.value)
   return res.send('pong')
 })
-app.post('/subscription', (req, res) => {
-	let openID = req.query.openID
+app.post('/subscription',express.json({type: '*/*'}), (req, res) => {
+	//let openID = req.query.openID
+	let openID = req.body.openID
+	
 	let obj = {
 		openID: openID,
-		name: req.query.nickName,
-		url: req.query.avatarUrl
+		name: req.body.nickName,
+		url: req.body.avatarUrl
 	}
 	let alreadyIn = false
 	for(var item of receivers){
@@ -45,7 +49,6 @@ app.get('/subscriptions', (req, res) => {
   return res.send(JSON.stringify(receivers))
 })
 app.get('/alarmTriger', (req, res) => {
-	console.log('alarm triigger with value '+req.query.value)
 	let currentV = req.query.value
 	https.get('https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx5972e6e35ef9a1bb&secret=d1d81d294b8a4def6705eafe398448d6',
 		(resp) => {
@@ -63,11 +66,7 @@ app.get('/alarmTriger', (req, res) => {
 			+ " " + ("0" + m.getUTCHours()).slice(-2) 
 			+ ":" + ("0" + m.getUTCMinutes()).slice(-2)
 			+ ":" + ("0" + m.getUTCSeconds()).slice(-2);
-		console.log(dateString)
-		console.log('alarm crr v = ',currentV)
 		for(var item of receivers){
-			console.log('handle id = '+item.openID)
-			
 			data = JSON.stringify({
 					touser: item.openID,
 					template_id: 'IKKc_gGEZCqQgqQw6mXKVzrvoWxS_TZYz4GPksSBREo',
@@ -81,7 +80,6 @@ app.get('/alarmTriger', (req, res) => {
 						},						
 					}
 			})
-			console.log(data)
 			const options = {
 				hostname: 'api.weixin.qq.com',
   			port: 443,

@@ -54,18 +54,27 @@ function App() {
 		setAlarm(200)
 		setLogger([])
 		valueInpage = 100
+		postValue(100)
 	}
 	function timePass(){
 		let newValue = valueInpage + Math.ceil(Math.random()*10)
 		valueInpage = newValue
 		setValue(newValue)
 		
-		fetch('/setValue?value='+newValue)
+		postValue(newValue)
+		//fetch('/setValue?value='+newValue)
+    //    .then(res => res.json())
+    //    .then((data) => {
+    //    })
+    //    .catch()
+	}
+	function postValue(arg){
+		fetch('/setValue?value='+arg)
         .then(res => res.json())
         .then((data) => {
-					console.log(data)
         })
-        .catch(console.log)
+        .catch()
+
 	}
 	function changeAlarm(alarmValue){
 		setAlarm(alarmValue)
