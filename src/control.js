@@ -1,5 +1,5 @@
 import React,{useRef,useEffect} from 'react';
-import courier from './static/courier.jpg'
+import courier from './static/courier.png'
 
 export default function Control(props){
 	const [alarmEnable, setAlarmEnable] = React.useState(false);
