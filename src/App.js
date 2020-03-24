@@ -146,6 +146,12 @@ function App() {
 			/>	  		
 	  	</div>
 	  </div>
+	  
+	  <div className="divider bottom-div">
+	  	<hr className="simple bottom-hr" color="#6f5499" />	
+		  <span className="bottom-font"><a href="http://beian.miit.gov.cn">备案编号：粤ICP备20007310号</a></span>
+	  </div>
+	  
 	 </div>
     </div>
   );

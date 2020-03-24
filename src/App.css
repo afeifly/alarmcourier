@@ -66,3 +66,17 @@
 		opacity: 1
   }
 }
+
+.bottom-div {
+  bottom: 10px;
+  position: absolute;
+  left: 60px;
+  right: 60px;
+  text-align: right;
+}
+.bottom-hr {
+  margin-bottom: 0 !important;
+}
+.bottom-font {
+  font-size: 12px;
+}
