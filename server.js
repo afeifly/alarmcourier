@@ -13,7 +13,6 @@ app.get('/ping', (req, res) => {
   return res.send('pong')
 })
 app.get('/getValue', (req, res) => {
-//	let value =	Math.floor(Math.random() * Math.floor(100))
 	let value =	currentValue
 	let obj = {
 		value : value
@@ -119,8 +118,10 @@ app.post('/alarm',(req, res) =>{
 	
   return res.send(JSON.stringify(receivers))
 })
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'))
+
+app.get('/download', (req, res) => {
+	console.log("what?????");
+	res.download(`${__dirname}/myfilelib/Demo-AWS-Translator.xlsx`);
 })
 
 app.listen(3000)

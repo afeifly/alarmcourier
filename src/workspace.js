@@ -24,6 +24,29 @@ export default function Workspace(props) {
 	function changeAlarmStatus(){
 		setHasAlarm(!hasAlarm)
 	}
+	function handleDownload(){
+		fetch('/download',{
+			headers: {
+				'Content-Type': 'application/xlsx'
+			  },
+			  responseType: 'blob'
+		})
+        .then(response => response.blob())
+        .then(
+			blob => {
+				var url = window.URL.createObjectURL(blob);
+				var a = document.createElement('a');
+				a.href = url;
+				a.download = "bac.xlsx";
+				document.body.appendChild(a); // we need to append the element to the dom -> otherwise it will not work in firefox
+				a.click();
+				a.remove(); 
+			}
+		)
+        .catch(()=>{
+			
+		})
+	}
 	return (
 		<div>
 		<div className="card card-width"	>
@@ -72,6 +95,12 @@ export default function Workspace(props) {
 			dot={false}
 		/>
       </LineChart>
+	  <div className="col-auto">
+					<button className="btn btn-default"
+									onClick={handleDownload}
+									type="button">Download</button> 
+					
+				</div>
 			</div>
 		</div>
 		</div>

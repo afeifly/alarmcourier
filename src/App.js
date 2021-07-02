@@ -62,18 +62,15 @@ function App() {
 		setValue(newValue)
 		
 		postValue(newValue)
-		//fetch('/setValue?value='+newValue)
-    //    .then(res => res.json())
-    //    .then((data) => {
-    //    })
-    //    .catch()
 	}
 	function postValue(arg){
 		fetch('/setValue?value='+arg)
         .then(res => res.json())
         .then((data) => {
         })
-        .catch()
+        .catch(()=>{
+			
+		})
 
 	}
 	function changeAlarm(alarmValue){
