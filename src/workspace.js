@@ -27,7 +27,7 @@ export default function Workspace(props) {
 	function handleDownload(){
 		fetch('/download',{
 			headers: {
-				'Content-Type': 'application/xlsx'
+				'Content-Type': 'application/xls'
 			  },
 			  responseType: 'blob'
 		})

@@ -121,7 +121,7 @@ app.post('/alarm',(req, res) =>{
 
 app.get('/download', (req, res) => {
 	console.log("what?????");
-	res.download(`${__dirname}/myfilelib/Demo-AWS-Translator.xlsx`);
+	res.download(`${__dirname}/myfilelib/ourtest.xls`);
 })
 
 app.listen(3000)
